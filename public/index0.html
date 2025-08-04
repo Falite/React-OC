@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démo</title>
+</head>
+<body>
+    <div id="toute">
+        Bonjour la team ☕️
+    </div>
+    <script
+      crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script 
+      crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js">
+    </script>
+    <script type="text/babel">
+        ReactDOM.render(<div>Mon élément va remplacer le contenu précédent la team</div>,
+            document.getElementById('toute')
+        )
+        function Description() {
+            return (<p>Ici, achetez des fleurs pour les offrir aux femmes</p>)
+        }
+        function Header() {
+            return (<h1>Bienvenue dans notre boutique de fleurs</h1>)
+        }
+        ReactDOM.render(<div><Header /><Description /></div>, document.getElementById('toute'))
+    </script>
+</body>
+</html>

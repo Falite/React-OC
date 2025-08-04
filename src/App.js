@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>C'est Jawad de Bagnolet !</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          c'est pour dire Miii mikhouli, miiiikhali mikhouli.
         </p>
         <a
           className="App-link"
@@ -21,5 +22,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
