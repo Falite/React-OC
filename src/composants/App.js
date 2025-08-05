@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../assets/logo.svg';
+import '../styles/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>C'est Jawad de Bagnolet !</h1>
+        <h1>Coucou Indiana</h1>
         <p>
-          c'est pour dire Miii mikhouli, miiiikhali mikhouli.
+         Bonne recherche de taff !!!
         </p>
         <a
           className="App-link"
