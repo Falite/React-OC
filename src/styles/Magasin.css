@@ -2,8 +2,10 @@
 	list-style-type: none;
 	padding: 32px;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	max-width: 800px;
+	background-color: rgb(105, 135, 105);
 }
 
 .magasin-item {
@@ -15,8 +17,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 	position: relative;
+	background-color: rgb(111, 183, 111);
 }
 
 .magasin-prix {

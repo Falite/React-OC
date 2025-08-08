@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Banner from './composants/Banner';
 import Cart from './composants/Cart';
 import Magasin from './composants/Magasin';
+import Footer from './composants/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <App />
     <Magasin />
     <Cart />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

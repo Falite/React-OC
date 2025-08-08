@@ -1,19 +1,25 @@
 import '../styles/Magasin.css';
 import { platsList } from '../datas/platsList';
+import CareScale from './CareScale';
+
+function clique(NomPlat) {
+    alert(`tu vas acheter ${NomPlat} ? bon choix !`);
+}
 
 function Magasin() {
     return (
         <div className='magasin'>
-            <ul>
-                {platsList.map((plat)=>
-                <li key={plat.id} className='magasin-item'>{plat.nom} 
-                <div key={plat.id} className='magasin-prix'>{plat.prix} €</div>
-                <div key={plat.id}>
-                    {plat.good ? <span>👌</span> : null}
+            {platsList.map((plat)=>
+                <div key={plat.id} className='magasin-item' onClick={() => clique(plat.nom)}>
+                    {plat.nom}
+                    <div className='magasin-prix'>
+                        {plat.prix} €</div>
+                    <div>
+                        {plat.good ? <span>👌</span> : null}
+                    </div>
+                    <CareScale careType='ecologique' scaleValue={plat.ecologique} />
                 </div>
-                </li>
-                )}
-            </ul>
+            )}
         </div>
     )
 }
