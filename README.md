@@ -1,3 +1,11 @@
+<div style='text-align: center;'>
+<a href='README-fr.md'>En français 🇫🇷</a>
+</div>
+
+# Training in React on OpenClassroom
+
+The main course [here](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
